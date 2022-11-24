@@ -1,0 +1,25 @@
+@mixin header-list-item {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #83888F;
+}
+
+@mixin hero-button {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FEFCF7;
+    background: #0E8784;
+    border-radius: 6px;
+    padding: 15px 31px;
+    cursor: pointer;
+}
+
