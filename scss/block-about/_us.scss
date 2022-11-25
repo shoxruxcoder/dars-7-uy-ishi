@@ -1,0 +1,74 @@
+.us__title{
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+    max-width: 188px;
+    margin-bottom: 24px;
+}
+.us__text{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    max-width: 445px;
+}
+.us__block{
+    background-repeat: no-repeat;
+    background-image: url(../../img/about-bgi.jpg);
+    border-radius: 10px;
+}
+.us__content{
+    padding: 137px 0;
+    padding: 85px;
+}
+
+@media screen and (max-width:1000px) {
+    .us__block{
+        background-image: url(../../img/about-tablet-bgi.png);
+        background-position-x: right;
+        background-size: cover;
+    }
+    .us__title{
+        max-width: 150px;
+        font-size: 32px;
+        line-height: 40px;
+        margin-bottom: 24px;
+    }
+    .us__text{
+        max-width: 398px;
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .us__content{
+        padding: 118px 0;
+        padding: 58px;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .us__title{
+        margin: 0 auto;
+        margin-bottom: 24px;
+        font-size: 28px;
+        line-height: 28px;
+        text-align: center;
+    }
+    .us__text{
+        max-width: 279px;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .us__content{
+        padding-top: 111px;
+        padding-bottom: 87px;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}

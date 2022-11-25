@@ -1,0 +1,125 @@
+.quality__title{
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+    max-width: 517px;
+    margin-bottom: 32px;
+}
+.quality__text{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    max-width: 540px;
+}
+.quality__img-block{
+    max-width: 445px;
+}
+.quality{
+    background: #2C343E;
+    border-radius: 10px;
+}
+.quality__block{
+    display: flex;
+    justify-content: space-between;
+}
+.quality__content{
+    padding-top: 88px;
+    padding-bottom: 176px;
+    padding-left: 85px;
+}
+.quality__img-block{
+    position: relative;
+    top: -88px;
+    left: -85px;
+}
+.quality{
+    margin-bottom: 168px;
+    margin-top: 170px;
+}
+
+@media screen and (max-width:1215px) {
+    .quality__img-block{
+        position: static;
+        top: 0;
+        left: 0;
+    }
+    .quality__block{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .quality__title{
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 24px;
+        max-width: 413px;
+        font-size: 32px;
+        line-height: 48px;
+    }
+    .quality__text{
+        text-align: center;
+        margin: 0 auto;
+        max-width: 540px;
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .quality__img{
+        width: 573px;
+        height: 400px;
+        object-fit: cover;
+    }
+    .quality__img-block{
+        max-width: 573px;
+        margin: 0 auto;
+    }
+    .quality__content{
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-left: 0;
+    }
+    .quality__img-block{
+        position: relative;
+        top: -64px;
+    }
+    .quality{
+        padding-bottom: 67px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .quality__img-block{
+        position: static;
+        top: 0;
+    }
+    .quality__img{
+        width: 280px;
+        height: 160px;
+    }
+    .quality__img-block{
+        position: relative;
+        top: -64px;
+    }
+    .quality__title{
+        max-width: 280px;
+        margin-bottom: 24px;
+        font-size: 28px;
+        line-height: 28px;
+    }
+    .quality__text{
+        max-width: 280px;
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .quality{
+        margin-top: 450px;
+        margin-bottom: 181px;
+    }
+}

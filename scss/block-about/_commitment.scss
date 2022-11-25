@@ -1,0 +1,110 @@
+.commitment__img-block{
+    max-width: 485px;
+}
+.commitment__title{
+    max-width: 357px;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #333D4B;
+    margin-bottom: 32px;
+}
+.commitment__text{
+    max-width: 540px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+.commitment__block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.commitment{
+    padding: 168px 0;
+}
+
+@media screen and (max-width:1200px) {
+    .commitment__block{
+        margin-left: 40px;
+    }
+}
+
+@media screen and (max-width:1025px) {
+    .commitment__img-block{
+        display: none;
+    }
+    .commitment__content-block{
+        // max-width: 400px;
+        margin-left: auto;
+        padding-left: 40px;
+    }
+    .commitment__block{
+        background-repeat: no-repeat;
+        background-image: url(../../img/commitment-tablet-img.png);
+        background-size: contain;
+        height: 470px;
+        margin-left: 40px;
+    }
+}
+
+@media screen and (max-width:875px) {
+    .commitment__content-block{
+        max-width: 450px;
+    }
+}
+
+@media screen and (max-width:740px) {
+    .commitment__content-block{
+        max-width: 400px;
+    }
+}
+
+@media screen and (max-width:690px) {
+    .commitment__block{
+        background-image: url();
+    }
+    .commitment__img-block{
+        display: block;
+    }
+    .commitment__block{
+        display: block;
+    }
+    .commitment__content-block{
+        margin: 0 auto;
+    }
+    .commitment__img-block{
+        max-width: 360px;
+        margin: 0 auto;
+        margin-bottom: 48px;
+    }
+    .commitment{
+        padding: 120px 0;
+    }
+    .commitment__content-block{
+        padding-left: 0;
+    }
+    .commitment__block{
+        margin-left: 0;
+    }
+    .commitment__title{
+        font-size: 32px;
+        line-height: 48px;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .commitment__text{
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+    }
+   
+}
